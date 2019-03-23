@@ -6,8 +6,6 @@ function CityDropDown(props) {
         CurrentCity: 
         <select onChange={
           (e)=>{
-            console.log("on change")
-
             if(props.set){
               props.set(e.target.value);
             }
